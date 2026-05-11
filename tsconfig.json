@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "vitest.config.ts",
+    "vitest.setup.ts",
+    "tailwind.config.base.cjs",
+    "scripts/**/*.js"
+  ]
+}

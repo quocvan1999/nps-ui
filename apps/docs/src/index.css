@@ -68,12 +68,12 @@ body {
 }
 
 /* Force Outfit on all Ant Design components */
-.ant-btn, 
-.ant-menu, 
-.ant-typography, 
-.ant-select, 
-.ant-input, 
-.ant-tag, 
+.ant-btn,
+.ant-menu,
+.ant-typography,
+.ant-select,
+.ant-input,
+.ant-tag,
 .ant-anchor,
 .ant-timeline {
   font-family: "Outfit", sans-serif !important;

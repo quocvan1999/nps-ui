@@ -1,18 +1,18 @@
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { DocsLayout } from "./components/docs/DocsLayout";
-import type { DocsAnchorItem } from "./components/docs/types";
+
 import {
   GettingStartedPage,
   gettingStartedAnchorItems,
 } from "./pages/getting-started";
 import { ButtonPage, buttonAnchorItems } from "./pages/components/button";
+import { AlertPage, alertAnchorItems } from "./pages/components/alert";
 import { HomePage, homeAnchorItems } from "./pages/home";
 import { ChangelogPage, changelogAnchorItems } from "./pages/changelog";
 import type { PageConfig } from "./types/router";
 
 const BASE_PATH = "/nps-ui";
 const DEFAULT_PATH = "/guide/getting-started";
-
 
 const pageMap: Record<string, PageConfig> = {
   "/": {
@@ -29,6 +29,11 @@ const pageMap: Record<string, PageConfig> = {
     path: "/components/button",
     anchorItems: buttonAnchorItems,
     content: <ButtonPage />,
+  },
+  "/components/alert": {
+    path: "/components/alert",
+    anchorItems: alertAnchorItems,
+    content: <AlertPage />,
   },
   "/changelog": {
     path: "/changelog",

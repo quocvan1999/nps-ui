@@ -17,9 +17,7 @@ export function DocExampleSection({ example }: DocExampleSectionProps) {
       >
         {example.title}
       </Title>
-      <Paragraph
-        style={{ color: "#64748b", marginBottom: 16, fontSize: 14 }}
-      >
+      <Paragraph style={{ color: "#64748b", marginBottom: 16, fontSize: 14 }}>
         {example.desc}
       </Paragraph>
       <div className="docs-example-card">

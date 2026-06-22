@@ -19,6 +19,7 @@
     "version": "changeset version",
     "release": "npm run build && changeset publish",
     "change": "node scripts/nps-release-ui.js",
+    "gen:component": "node scripts/generate-component.js",
     "clean": "rm -rf dist node_modules packages/*/dist packages/*/node_modules apps/*/dist apps/*/node_modules"
   },
   "devDependencies": {

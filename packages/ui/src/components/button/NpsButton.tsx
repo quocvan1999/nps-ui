@@ -12,10 +12,5 @@ export function NpsButton({ className, rounded, ...props }: NpsButtonProps) {
           ? "!rounded-md"
           : undefined;
 
-  return (
-    <Button
-      className={twMerge(roundedClass, className)}
-      {...props}
-    />
-  );
+  return <Button className={twMerge(roundedClass, className)} {...props} />;
 }

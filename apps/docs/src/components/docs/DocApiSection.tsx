@@ -10,7 +10,11 @@ interface DocApiSectionProps {
   antdDocLink?: string;
 }
 
-export function DocApiSection({ title, customApiData, antdDocLink }: DocApiSectionProps) {
+export function DocApiSection({
+  title,
+  customApiData,
+  antdDocLink,
+}: DocApiSectionProps) {
   if (!customApiData && !antdDocLink) return null;
 
   return (
@@ -55,7 +59,8 @@ export function DocApiSection({ title, customApiData, antdDocLink }: DocApiSecti
               Inherited props from Ant Design {title}
             </p>
             <p className="docs-ant-ref-callout-desc">
-              This component fully inherits all properties from the original Ant Design component.
+              This component fully inherits all properties from the original Ant
+              Design component.
             </p>
             <a
               href={antdDocLink}

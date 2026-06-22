@@ -8,7 +8,7 @@ export const commonLocales = {
     latest: "Latest",
     readGuide: "Read the full guide →",
     exploreComponents: "Explore Components",
-    getStarted: "Get Started →"
+    getStarted: "Get Started →",
   },
   vi: {
     guide: "Hướng dẫn",
@@ -19,6 +19,6 @@ export const commonLocales = {
     latest: "Mới nhất",
     readGuide: "Xem hướng dẫn chi tiết →",
     exploreComponents: "Khám phá Component",
-    getStarted: "Bắt đầu trải nghiệm →"
-  }
+    getStarted: "Bắt đầu trải nghiệm →",
+  },
 };

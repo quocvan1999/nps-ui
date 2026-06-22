@@ -1,4 +1,4 @@
-import { Button, Dropdown, Space } from "antd";
+import { Button, Dropdown } from "antd";
 import { useTranslation } from "react-i18next";
 import { GlobalOutlined } from "@ant-design/icons";
 

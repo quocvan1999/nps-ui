@@ -7,6 +7,7 @@ import { commonLocales } from "./locales/common";
 import { homeLocales } from "../pages/home/locales";
 import { gettingStartedLocales } from "../pages/getting-started/locales";
 import { buttonLocales } from "../pages/components/button/locales";
+import { alertLocales } from "../pages/components/alert/locales";
 
 i18n
   .use(LanguageDetector)
@@ -18,12 +19,14 @@ i18n
         home: homeLocales.en,
         gettingStarted: gettingStartedLocales.en,
         button: buttonLocales.en,
+        alert: alertLocales.en,
       },
       vi: {
         common: commonLocales.vi,
         home: homeLocales.vi,
         gettingStarted: gettingStartedLocales.vi,
         button: buttonLocales.vi,
+        alert: alertLocales.vi,
       },
     },
     fallbackLng: "en",

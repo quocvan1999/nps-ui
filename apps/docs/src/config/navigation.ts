@@ -19,6 +19,11 @@ export const COMPONENT_NAV: NavItem[] = [
     label: "Button",
     path: "/components/button",
   },
+  {
+    key: "/components/alert",
+    label: "Alert",
+    path: "/components/alert",
+  },
 ];
 
 export const TOP_NAV = [

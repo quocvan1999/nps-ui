@@ -11,7 +11,12 @@ interface DocHeroProps {
   importSnippet: string;
 }
 
-export function DocHero({ title, version, description, importSnippet }: DocHeroProps) {
+export function DocHero({
+  title,
+  version,
+  description,
+  importSnippet,
+}: DocHeroProps) {
   return (
     <section id="overview" className="docs-section">
       <div className="flex items-center gap-3 mb-3">
